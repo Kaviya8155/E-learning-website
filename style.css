@@ -1,0 +1,289 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: linear-gradient(135deg,#667eea,#764ba2);
+    color: white;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background: rgba(0,0,0,0.3);
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    margin-top: 100px;
+    animation: fade 2s;
+}
+
+.btn {
+    background: orange;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Cards */
+.cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.card {
+    background: white;
+    color: black;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+/* Quiz */
+.quiz-box {
+    background: white;
+    color: black;
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+label {
+    display: block;
+    background: #eee;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Result */
+.result {
+    display: none;
+}
+
+#c:checked ~ .correct {
+    display: block;
+    color: green;
+}
+
+#w:checked ~ .wrong {
+    display: block;
+    color: red;
+}
+
+/* Contact */
+.contact-box {
+    background: white;
+    color: black;
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact-box input,
+.contact-box textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+}
+
+/* Animation */
+@keyframes fade {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.quiz-container {
+    width: 350px;
+    margin: 80px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Hide radio */
+input[type="radio"] {
+    display: none;
+}
+
+/* Steps hidden */
+.step {
+    display: none;
+}
+
+/* Show active step */
+#q1:checked ~ .s1,
+#q2:checked ~ .s2,
+#q3:checked ~ .s3,
+#q4:checked ~ .s4,
+#q5:checked ~ .s5,
+#result:checked ~ .result {
+    display: block;
+}
+
+/* Buttons */
+.next {
+    display: inline-block;
+    background: orange;
+    padding: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+}
+
+/* Options */
+label {
+    display: block;
+    background: #eee;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+/* hide radio */
+input[type="radio"] {
+    display: none;
+}
+
+/* hide result */
+.result {
+    display: none;
+}
+
+/* Q1 */
+#q1c:checked ~ .correct1 { display: block; color: green; }
+#q1w:checked ~ .wrong1 { display: block; color: red; }
+
+/* Q2 */
+#q2c:checked ~ .correct2 { display: block; color: green; }
+#q2w:checked ~ .wrong2 { display: block; color: red; }
+
+/* Q3 */
+#q3c:checked ~ .correct3 { display: block; color: green; }
+#q3w:checked ~ .wrong3 { display: block; color: red; }
+
+/* Q4 */
+#q4c:checked ~ .correct4 { display: block; color: green; }
+#q4w:checked ~ .wrong4 { display: block; color: red; }
+
+/* Q5 */
+#q5c:checked ~ .correct5 { display: block; color: green; }
+#q5w:checked ~ .wrong5 { display: block; color: red; }
+.quiz {
+    display: none;
+    background: white;
+    color: black;
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    animation: fade 1s;
+}
+
+/* show first */
+.active {
+    display: block;
+}
+
+/* show when clicked */
+:target {
+    display: block;
+}
+
+/* hide radio */
+input[type="radio"] {
+    display: none;
+}
+
+label {
+    display: block;
+    background: #eee;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* result */
+.result {
+    display: none;
+}
+
+#q1c:checked ~ .correct,
+#q2c:checked ~ .correct,
+#q3c:checked ~ .correct,
+#q4c:checked ~ .correct,
+#q5c:checked ~ .correct {
+    display: block;
+    color: green;
+}
+
+#q1w:checked ~ .wrong,
+#q2w:checked ~ .wrong,
+#q3w:checked ~ .wrong,
+#q4w:checked ~ .wrong,
+#q5w:checked ~ .wrong {
+    display: block;
+    color: red;
+}
+
+/* next button */
+.next {
+    display: inline-block;
+    margin-top: 10px;
+    background: orange;
+    padding: 8px 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+@keyframes fade {
+    from {opacity: 0;}
+   /* hide all by default */
+.quiz {
+    display: none;
+    background: white;
+    color: black;
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    animation: fade 1s;
+}
+
+/* show first question initially */
+.quiz:first-of-type {
+    display: block;
+}
+
+/* show when targeted */
+.quiz:target {
+    display: block;
+}
+
+/* hide others when target active */
+body:has(.quiz:target) .quiz:first-of-type {
+    display: none;
+} to {opacity: 1;}
+}
