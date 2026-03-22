@@ -1,23 +1,65 @@
+# 📚 E-Learning Web Project
 
-# 📚 E-Learning Website
-
-A complete **E-Learning Website** built using **HTML and CSS only**.
-This project demonstrates a multi-page educational platform with courses, quiz system, and module-based structure.
+This is a simple E-Learning Website built using **HTML, CSS, and JavaScript**.  
+It allows users to learn courses like HTML, CSS, and JavaScript with tasks, quizzes, and progress tracking.
 
 ---
 
 ## 🚀 Features
 
-* 🏠 Home Page
-* 📘 Courses Page (HTML, CSS, JavaScript)
-* 📖 Course Detail Pages
-* 🧠 Quiz System (5 Questions - Step by Step)
-* 📞 Contact Page
-* 📚 Modules Overview Page
-* 🎨 Attractive UI Design with animations
-* ❌ No JavaScript used (Pure HTML & CSS)
+- 📖 Course pages (HTML, CSS, JavaScript)
+- 📝 Tasks & Practice sections
+- 🧠 Quiz system
+- 📊 Progress tracking
+- 🎁 Bonus content
+- 📩 Contact & Feedback forms
+- 🔐 User Registration & Login (UI)
+- 🛠️ Admin & Course Management pages
 
 ---
+
+## 📁 Project Structure
+
+project-folder/
+│
+├── index.html # Main homepage
+├── courses.html # Courses list
+├── html-basics.html # HTML course content
+├── css-design.html # CSS course content
+├── JavaScript-Intro.html # JavaScript course content
+├── course-manage.html # Course management
+├── enroll.html # Enrollment page
+├── progress.html # Progress tracking
+├── quiz.html # Quiz page
+├── bonus.html # Bonus content
+├── communication.html # Communication page
+├── contact.html # Contact page
+├── feedback.html # Feedback page
+├── registration.html # User registration
+├── user.html # User dashboard
+├── admin.html # Admin panel
+├── content.html # Additional content
+├── style.css # Styling file
+
+
+---
+
+
+## 💻 How to Run
+
+1. Download or clone the repository
+2. Open the project folder
+3. Double click on `index.html`
+4. Project will open in your browser 🌐
+
+---
+
+
+
+## 📌 Note
+
+This project is created for learning purposes and can be improved further with backend and database integration.
+
 
 ## 🌐 Live Demo
 
@@ -27,83 +69,7 @@ https://your-username.github.io/e-learning-website/
 
 ---
 
-## 📁 Project Structure
-
-e-learning-website/
-│
-├── index.html
-├── courses.html
-├── html.html
-├── css.html
-├── js.html
-├── quiz.html
-├── contact.html
-├── bonus.html
-│
-├── user.html
-├── course-manage.html
-├── content.html
-├── enroll.html
-├── assessment.html
-├── progress.html
-├── communication.html
-├── feedback.html
-├── admin.html
-│
-└── style.css
-
----
-
-## 📚 Modules Included
-
-1. **User Management Module**
-
-   * Registration, login, profile
-
-2. **Course Management Module**
-
-   * Create, update, delete courses
-
-3. **Content Delivery Module**
-
-   * Videos, notes, PDFs
-
-4. **Enrollment Module**
-
-   * Students enroll in courses
-
-5. **Assessment Module**
-
-   * Quizzes, tests, assignments
-
-6. **Progress Tracking Module**
-
-   * Track student performance
-
-7. **Communication Module**
-
-   * Chat, forums, announcements
-
-8. **Feedback & Review Module**
-
-   * Ratings and feedback
-
-9. **Admin Module**
-
-   * Manage users, courses, reports
-
----
-
 ## 🧠 Quiz Functionality
-
-* Displays one question at a time
-* Shows result instantly (Correct / Wrong)
-* Next button for navigation
-* Final Submit button
-* Displays "Congratulations" after completion
-
----
-
 ## 🛠️ Technologies Used
 
 * HTML5
