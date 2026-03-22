@@ -121,10 +121,15 @@ This project is created to practice:
 * Building interactive features without JavaScript
 
 ---
+🔥 Future Improvements
+Add quiz system 🧠
+Add progress bar 📊
+Download certificate as PDF 📄
+Login/Register system 🔐
+Fully responsive design 📱
 
-## 🙌 Author
-
-* Your Name
+👩‍💻 Author
+Developed as a mini project for learning web development.
 
 ---
 
