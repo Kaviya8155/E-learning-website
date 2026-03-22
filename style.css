@@ -336,3 +336,99 @@ transition:0.3s;
 .card:hover{
  transform:scale(1.05);
 }
+/* Global */
+body {
+    margin: 0;
+    font-family: Arial;
+    background: linear-gradient(135deg,#667eea,#764ba2);
+    color: white;
+}
+
+/* 🔥 FIX */
+p {
+    color: black;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background: rgba(0,0,0,0.3);
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    margin-top: 100px;
+    animation: fade 2s;
+}
+
+.btn {
+    background: orange;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Cards */
+.cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.card {
+    background: white;
+    color: black;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+/* rest of your code s/* 
+FIX TASK VISIBILITY */
+.task-box {
+    display: block !important;
+    color: black;
+}ame... */
+.title{
+ color:red;
+}
+.form-box {
+  background: white;
+  width: 350px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+input, textarea {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: red;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+}
