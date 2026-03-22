@@ -295,3 +295,33 @@ ul li a {
     text-decoration: none;
     color: blue;
 }
+.contact-box {
+    background: white;
+    width: 350px;
+    margin: 80px auto;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contact-box input,
+.contact-box textarea {
+    width: 90%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-box button {
+    padding: 10px 20px;
+    background: #ff7a18;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-box button:hover {
+    background: #e66900;
+}

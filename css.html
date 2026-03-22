@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Course</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body{font-family:Arial;background:#f4f4f4;margin:20px;}
+        p{background:white;padding:10px;border-radius:10px;margin-bottom:15px;}
+        img{width:300px;height:200px;margin:10px;border-radius:10px;}
+        .task-box,.certificate{background:#fff;padding:15px;border-radius:10px;margin-top:20px;}
+        button{padding:10px;background:green;color:white;border:none;border-radius:5px;}
+    </style>
+
+    <script>
+        function completeCourse(){
+            let name=document.getElementById("name").value;
+            if(name===""){alert("Enter your name!");return;}
+            document.getElementById("studentName").innerText=name;
+            document.getElementById("certificate").style.display="block";
+        }
+    </script>
+</head>
+
+<body>
+
+<nav>
+<h2>E-Learn</h2>
+<a href="courses.html">⬅ Back</a>
+</nav>
+
+<div class="content-box">
+
+<h1>🎨 CSS Course</h1>
+
+<img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" width="100">
+
+<p>CSS is used to style HTML elements and make web pages attractive. It controls layout, colors, and fonts. Without CSS, websites look plain. CSS improves user experience. It works with HTML. It enhances design. It is very important.</p>
+
+<p>CSS stands for Cascading Style Sheets. It separates design from structure. This keeps code clean. It improves maintainability. CSS rules apply styles. It uses selectors. It is widely used.</p>
+
+<p>There are three types of CSS. Inline CSS is used inside tags. Internal CSS is inside style tag. External CSS is separate file. External is best practice. It keeps code organized. It is efficient.</p>
+
+<p>Selectors target HTML elements. Class selector can be reused. ID selector is unique. Tag selector applies globally. Proper usage is important. It improves flexibility. It helps styling.</p>
+
+<p>Colors and backgrounds can be styled. Fonts can be customized. Layout can be designed. CSS improves UI. It attracts users. It enhances experience. It makes pages beautiful.</p>
+
+<p>Box model includes margin, border, padding. It defines spacing. It controls layout. It is important concept. It helps design properly. It avoids overlap issues. It improves structure.</p>
+
+<p>Flexbox helps align elements easily. It is responsive friendly. Grid is advanced layout system. It creates complex layouts. Both are powerful tools. They simplify design. They are widely used.</p>
+
+<p>Responsive design makes websites mobile friendly. Media queries are used. It adapts layout. It improves accessibility. It enhances UX. It is industry standard. It is essential.</p>
+
+<p>Animations add movement to elements. Transitions create smooth effects. It improves interactivity. It attracts users. It enhances design. It is used in modern UI. It is powerful.</p>
+
+<p>CSS is essential for web development. It transforms HTML into beautiful pages. Practice is important. Learn step by step. It improves creativity. It is must-learn skill. It is widely used.</p>
+
+<h2>Images</h2>
+<img src="https://source.unsplash.com/300x200/?css">
+<img src="https://source.unsplash.com/300x200/?design">
+<img src="https://source.unsplash.com/300x200/?ui">
+
+<div class="task-box">
+<h3>Tasks</h3>
+<ul>
+<li>✔ Apply colors</li>
+<li>✔ Change fonts</li>
+<li>✔ Use box model</li>
+<li>✔ Create layout</li>
+<li>✔ Make responsive page</li>
+<li>✔ Add animation</li>
+<li>✔ Design webpage</li>
+</ul>
+
+<input type="text" id="name" placeholder="Enter your name">
+<br><br>
+<button onclick="completeCourse()">Complete Course</button>
+</div>
+
+<div id="certificate" class="certificate" style="display:none;">
+<h2>🎓 Certificate</h2>
+<p>This certifies that <b id="studentName"></b> completed CSS Course</p>
+</div>
+
+</div>
+
+</body>
+</html>
