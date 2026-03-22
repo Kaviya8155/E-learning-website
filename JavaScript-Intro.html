@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Course</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body{font-family:Arial;background:#f4f4f4;margin:20px;}
+        p{background:white;padding:10px;border-radius:10px;margin-bottom:15px;}
+        .task-box,.certificate{background:#fff;padding:15px;border-radius:10px;margin-top:20px;}
+        button{padding:10px;background:green;color:white;border:none;border-radius:5px;}
+    </style>
+
+    <script>
+        function showMessage(){
+            alert("JavaScript Working 🚀");
+        }
+
+        function completeCourse(){
+            let name=document.getElementById("name").value;
+            if(name===""){alert("Enter your name!");return;}
+            document.getElementById("studentName").innerText=name;
+            document.getElementById("certificate").style.display="block";
+        }
+    </script>
+</head>
+
+<body>
+
+<nav>
+<h2>E-Learn</h2>
+<a href="courses.html">⬅ Back</a>
+</nav>
+
+<div class="content-box">
+
+<h1>⚡ JavaScript Course</h1>
+
+<img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" width="100">
+
+<p>JavaScript is used to make websites interactive. It adds dynamic behavior. It works with HTML and CSS. It runs in browser. It improves user experience. It is powerful. It is widely used.</p>
+
+<p>JavaScript can change webpage content. It responds to user actions. Events like click are used. It updates UI dynamically. It improves interactivity. It is essential. It is flexible.</p>
+
+<p>Variables store data. They hold values. They are used in logic. They support different types. They are important. They simplify coding. They are widely used.</p>
+
+<p>Functions are reusable code blocks. They perform tasks. They reduce repetition. They improve structure. They are important. They help coding. They are efficient.</p>
+
+<p>Events are user actions. Click, hover, input are examples. Event handling connects code. It improves UX. It makes site responsive. It is important. It is widely used.</p>
+
+<p>DOM represents webpage structure. JS can modify DOM. It updates content. It changes styles. It makes dynamic UI. It is powerful. It is essential.</p>
+
+<p>Loops repeat tasks. For and while loops are used. They save time. They simplify logic. They improve efficiency. They are important. They are basic concepts.</p>
+
+<p>Arrays store multiple values. Objects store key-value data. They manage data. They are useful. They are important. They are widely used. They are powerful.</p>
+
+<p>JavaScript is used in frontend and backend. Node.js is backend. Frameworks like React exist. It is versatile. It is in demand. It is industry standard. It is important.</p>
+
+<p>Practice is key to learning JS. Build projects. Debug errors. Learn step by step. Stay consistent. It improves skills. It opens opportunities. It is powerful skill.</p>
+
+<button onclick="showMessage()">Click Me</button>
+
+<div class="task-box">
+<h3>Tasks</h3>
+<ul>
+<li>✔ Create alert</li>
+<li>✔ Handle click event</li>
+<li>✔ Change text</li>
+<li>✔ Create calculator</li>
+<li>✔ Use loops</li>
+<li>✔ Build project</li>
+<li>✔ Create interactive page</li>
+</ul>
+
+<input type="text" id="name" placeholder="Enter your name">
+<br><br>
+<button onclick="completeCourse()">Complete Course</button>
+</div>
+
+<div id="certificate" class="certificate" style="display:none;">
+<h2>🎓 Certificate</h2>
+<p>This certifies that <b id="studentName"></b> completed JavaScript Course</p>
+</div>
+
+</div>
+
+</body>
+</html>
