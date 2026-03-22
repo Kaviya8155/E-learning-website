@@ -1,7 +1,8 @@
+
 # 📚 E-Learning Website
 
-A simple and interactive E-Learning website built using **HTML and CSS only**.
-This project demonstrates a multi-page website with courses, quiz, and contact sections.
+A complete **E-Learning Website** built using **HTML and CSS only**.
+This project demonstrates a multi-page educational platform with courses, quiz system, and module-based structure.
 
 ---
 
@@ -9,17 +10,18 @@ This project demonstrates a multi-page website with courses, quiz, and contact s
 
 * 🏠 Home Page
 * 📘 Courses Page (HTML, CSS, JavaScript)
-* 📖 Separate course detail pages
-* 🧠 Quiz (5 questions - step by step)
+* 📖 Course Detail Pages
+* 🧠 Quiz System (5 Questions - Step by Step)
 * 📞 Contact Page
-* 🎨 Attractive design with animations
+* 📚 Modules Overview Page
+* 🎨 Attractive UI Design with animations
 * ❌ No JavaScript used (Pure HTML & CSS)
 
 ---
 
 ## 🌐 Live Demo
 
-👉 Add your GitHub Pages link here after deployment
+👉 Add your GitHub Pages link here
 Example:
 https://your-username.github.io/e-learning-website/
 
@@ -36,16 +38,69 @@ e-learning-website/
 ├── js.html
 ├── quiz.html
 ├── contact.html
+├── bonus.html
+│
+├── user.html
+├── course-manage.html
+├── content.html
+├── enroll.html
+├── assessment.html
+├── progress.html
+├── communication.html
+├── feedback.html
+├── admin.html
+│
 └── style.css
+
+---
+
+## 📚 Modules Included
+
+1. **User Management Module**
+
+   * Registration, login, profile
+
+2. **Course Management Module**
+
+   * Create, update, delete courses
+
+3. **Content Delivery Module**
+
+   * Videos, notes, PDFs
+
+4. **Enrollment Module**
+
+   * Students enroll in courses
+
+5. **Assessment Module**
+
+   * Quizzes, tests, assignments
+
+6. **Progress Tracking Module**
+
+   * Track student performance
+
+7. **Communication Module**
+
+   * Chat, forums, announcements
+
+8. **Feedback & Review Module**
+
+   * Ratings and feedback
+
+9. **Admin Module**
+
+   * Manage users, courses, reports
 
 ---
 
 ## 🧠 Quiz Functionality
 
 * Displays one question at a time
-* Shows result (Correct / Wrong) instantly
-* Moves to next question step-by-step
-* Final submission shows completion message
+* Shows result instantly (Correct / Wrong)
+* Next button for navigation
+* Final Submit button
+* Displays "Congratulations" after completion
 
 ---
 
@@ -58,12 +113,12 @@ e-learning-website/
 
 ## 🎯 Purpose
 
-This project is created for learning and practicing basic web development concepts like:
+This project is created to practice:
 
-* Page navigation
-* Styling
-* Layout design
-* Simple UI interactions using CSS
+* Multi-page website design
+* Navigation between pages
+* UI/UX design using CSS
+* Building interactive features without JavaScript
 
 ---
 
@@ -75,4 +130,4 @@ This project is created for learning and practicing basic web development concep
 
 ## ⭐ Feedback
 
-If you like this project, give it a ⭐ on GitHub!
+If you like this project, please give it a ⭐ on GitHub!
