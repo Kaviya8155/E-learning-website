@@ -14,7 +14,7 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: red;
     margin: 10px;
     text-decoration: none;
 }
@@ -30,7 +30,7 @@ nav a {
     background: orange;
     padding: 10px 20px;
     border-radius: 8px;
-    color: white;
+    color: pink;
     text-decoration: none;
 }
 
