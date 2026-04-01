@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Java Course</title>
+
+<style>
+
+body{
+font-family:Arial;
+background:#f2f2f2;
+text-align:center;
+}
+
+.box{
+background:white;
+margin:20px;
+padding:20px;
+border-radius:10px;
+width:80%;
+margin:auto;
+text-align:left;
+}
+
+textarea{
+width:100%;
+height:80px;
+}
+
+button{
+padding:8px;
+margin:5px;
+}
+
+.correct{
+color:green;
+font-weight:bold;
+}
+
+</style>
+
+
+<script>
+
+var score = 0;
+
+function check1(){
+
+var ans = document.getElementById("c1").value;
+
+if(ans.includes("Hello")){
+document.getElementById("r1").innerHTML="✔ Correct";
+score++;
+}else{
+document.getElementById("r1").innerHTML="Wrong";
+}
+
+}
+
+
+function check2(){
+
+var ans = document.getElementById("c2").value;
+
+if(ans.includes("int")){
+document.getElementById("r2").innerHTML="✔ Correct";
+score++;
+}else{
+document.getElementById("r2").innerHTML="Wrong";
+}
+
+}
+
+
+function check3(){
+
+var ans = document.getElementById("c3").value;
+
+if(ans.includes("if")){
+document.getElementById("r3").innerHTML="✔ Correct";
+score++;
+}else{
+document.getElementById("r3").innerHTML="Wrong";
+}
+
+}
+
+
+function check4(){
+
+var ans = document.getElementById("c4").value;
+
+if(ans.includes("for")){
+document.getElementById("r4").innerHTML="✔ Correct";
+score++;
+}else{
+document.getElementById("r4").innerHTML="Wrong";
+}
+
+}
+
+</script>
+
+</head>
+
+<body>
+
+<h1>Java Programming Course</h1>
+
+
+<div class="box">
+
+<h2>Introduction to Java</h2>
+
+<p>
+
+Java is one of the most popular programming languages in the world and is widely used for developing different types of applications such as desktop software, mobile applications, web applications, and enterprise systems. Java was developed by Sun Microsystems and later owned by Oracle. One of the main reasons for the popularity of Java is that it is platform independent, which means a program written in Java can run on any computer that has Java Virtual Machine installed. This concept is called “Write Once, Run Anywhere”. Java follows object oriented programming concepts such as class, object, inheritance, polymorphism, encapsulation, and abstraction, which help programmers create structured and reusable code. Java is also known for its strong security features, which makes it suitable for banking systems, online applications, and secure software. Another important feature of Java is automatic memory management using garbage collection, which helps in reducing errors. Java is used in Android app development, web servers, cloud computing, artificial intelligence, and game development. Many big companies like Google, Amazon, and Netflix use Java in their systems. Java has a large community, so beginners can easily find help and learning resources. Because of its stability, security, and performance, Java is considered one of the best programming languages for students and professionals. Learning Java helps in understanding programming logic and makes it easier to learn other languages like C++, Python, and JavaScript. Therefore, Java is an important language for anyone who wants to build a career in software development.
+
+</p>
+</div>
+
+
+<div class="box">
+
+<h2>Variable in Java</h2>
+
+<p>
+
+In Java programming, variables are used to store data that can be used and changed during program execution. A variable acts like a container that holds values such as numbers, text, or logical values. Every variable in Java must have a data type, which defines what kind of data the variable can store. Some common data types in Java include int, float, double, char, boolean, and String. The int data type is used to store whole numbers, while float and double are used to store decimal numbers. The char data type is used to store a single character, and String is used to store text. The boolean data type stores only true or false values and is mostly used in conditions. In Java, variable names must follow certain rules. A variable name cannot start with a number, it cannot contain spaces, and it should not use Java keywords. Java is a case sensitive language, which means variable name and VariableName are different. Variables must be declared before they are used in the program. Declaring a variable means telling the program what type of data it will store. After declaring, we can assign a value to the variable. Variables help programmers perform calculations, store user input, and control program flow. Without variables, it is not possible to create useful programs. Variables are used in loops, conditions, functions, and classes, so they are considered one of the most basic and important concepts in Java programming. Understanding variables clearly will make it easier to learn advanced topics in Java such as arrays, methods, and object oriented programming.
+
+</p>
+</div>
+
+
+<div class="box">
+
+<h2>if Else Statement</h2>
+
+<p>
+
+In Java programming, the if else statement is used for decision making. It allows the program to execute different blocks of code depending on whether a condition is true or false. Decision making is very important in programming because many situations require the program to choose between different actions. The if statement checks a condition written inside parentheses. If the condition is true, the code inside the if block will run. If the condition is false, the program will skip the if block. The else statement is used together with if when we want another block of code to run if the condition is false. This makes the program more flexible and intelligent. In Java, conditions are usually written using comparison operators such as greater than, less than, equal to, and not equal to. Logical operators like AND, OR, and NOT can also be used to combine multiple conditions. In addition to if and else, Java also provides else if, which allows checking multiple conditions one by one. This is useful when there are many possible results. For example, we can use if else to check student marks, to verify login details, to check age for voting, or to compare numbers. Decision making statements are used in almost every program, from simple calculators to complex applications. Nested if statements can also be used, which means writing an if statement inside another if statement. Learning if else properly helps in building strong programming logic. Without decision making, a program cannot react differently to different inputs, so understanding if else is very important for every Java programmer.
+
+</p>
+</div>
+
+
+<div class="box">
+
+<h2>Loops in Java</h2>
+
+
+<p>
+
+In Java programming, loops are used to repeat a block of code multiple times without writing the same code again and again. Loops help in reducing the length of the program and make the code easier to understand. Sometimes a programmer needs to run the same instruction many times, such as printing numbers, calculating totals, or checking values in a list. In such cases, loops are very useful. Java provides different types of loops such as for loop, while loop, and do while loop. The for loop is commonly used when the number of repetitions is known. It has three parts: initialization, condition, and increment or decrement. The loop runs until the condition becomes false. The while loop is used when the number of repetitions is not fixed, and the loop continues as long as the condition is true. The do while loop is similar to the while loop, but it always runs at least one time even if the condition is false. Loops can also be nested, which means one loop can be written inside another loop. Nested loops are useful for patterns, tables, and complex calculations. Loops are used in almost every Java program, including games, login systems, calculators, and data processing programs. They help in automation by performing repeated tasks quickly. Without loops, programmers would have to write many lines of code for the same work, which is not efficient. Understanding loops is very important because they are used together with variables, conditions, and arrays in advanced programs. Learning loops properly will make it easier to create real world Java applications.
+
+</p>
+
+
+<div class="box">
+
+<h2>Practice Tasks</h2>
+
+
+<h2>Practice 1 – Hello World</h2>
+
+<textarea id="c1"></textarea>
+
+<br>
+
+<button onclick="check1()">Run</button>
+
+<span id="r1"></span>
+
+</div>
+
+
+
+<div class="box">
+
+<h2>Practice 2 – Variables</h2>
+
+<textarea id="c2"></textarea>
+
+<br>
+
+<button onclick="check2()">Run</button>
+
+<span id="r2"></span>
+
+</div>
+
+
+
+<div class="box">
+
+<h2>Practice 3 – If Else</h2>
+
+<textarea id="c3"></textarea>
+
+<br>
+
+<button onclick="check3()">Run</button>
+
+<span id="r3"></span>
+
+</div>
+
+
+
+<div class="box">
+
+<h2>Practice 4 – Loop</h2>
+
+<textarea id="c4"></textarea>
+
+<br>
+
+<button onclick="check4()">Run</button>
+
+<span id="r4"></span>
+
+</div>
+
+
+
+Enter name:
+<input type="text"id="name">
+
+<br><br>
+
+<button onclick="finishcourse()">Get certificate</button>
+
+</div>
+
+
+
+<div id="certificate" style="
+display:none;
+width:500px;
+margin:auto;
+border:5px solid black;
+padding:20px;
+background:white;
+text-align:center;
+">
+
+<h1>Certificate</h1>
+
+<p>This certifies that</p>
+
+<h2 id="student"></h2>
+
+<p>has successfully completed</p>
+
+<h2>Java Programming Course</h2>
+
+<p>Beginner to Intermediate Training</p>
+
+</div>
